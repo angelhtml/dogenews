@@ -16,11 +16,11 @@ import { useRouter } from 'next/router'
 import addgif from '../public/1635779886.gif'
 import imgholder from '../public/retro-bg.jpg'
 
-
+const perfix = '/dogenews'
    
 function App(){
 
-  const perfix = '/dogenews'
+  
 
   const [bitcoinprice, setBitcoinPrice] = useState();
   const [bitcoinpercentchange24h, setBitcoinPercentchange24h] = useState();
