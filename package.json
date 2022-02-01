@@ -2,8 +2,9 @@
   "name": "next",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "node ./test-migration.js && next dev",
+    "build": "node ./test-migration.js && next build",
+    "export":"next export",
     "start": "next start",
     "lint": "next lint",
     "buildsta": "next build && next export"
