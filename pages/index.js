@@ -13,8 +13,8 @@ import { BiCaretDown } from 'react-icons/bi';
 import Skeleton,{ SkeletonTheme } from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 import { useRouter } from 'next/router'
-import addgif from '../public/1635779886.gif'
-import imgholder from '../public/retro-bg.jpg'
+import addgif from '.1635779886.gif'
+import imgholder from './retro-bg.jpg'
 
 const perfix = '/dogenews'
    
