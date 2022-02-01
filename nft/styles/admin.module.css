@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+}
+.section1{
+    flex: 5%;
+    box-shadow: 5px 0 20px 10px rgba(255, 255, 0, 0.233);
+    border-right: 1px solid yellow;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ece800' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    animation-name: pages;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+.section2{
+    flex: 95%;
+}
+.section1 button{
+    padding: 1rem;
+}
+.page{
+    animation-name: pages;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+@keyframes pages{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}

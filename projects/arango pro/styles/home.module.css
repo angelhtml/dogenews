@@ -1,0 +1,48 @@
+
+.navbar{
+  background-color: rgb(31, 143, 255);
+  height: 3rem;
+  color: white;
+  font-size: 1.2rem;
+  padding-top: 0.6rem;
+  box-shadow: 0px 5px 10px 10px rgba(0, 0, 0, 0.185);
+  transition: all 1s ease-in;
+}
+.txt{
+  animation-name: text;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+@keyframes text{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+.input{
+  width: 50% !important;
+}
+.input:focus{
+  border-bottom: 2px solid dodgerblue !important;
+}
+.button{
+  border: 1px solid rgba(104, 107, 110, 0.411);
+  width: 18vw;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  color: gray;
+  transition: all 1s ease-in;
+  margin-top: 2rem;
+  box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.075);
+}
+.button:hover{
+  color: darkturquoise;
+  border: 1px solid darkturquoise;
+  transform: translateY(-5px);
+}
+@media screen and (max-width:450px){
+  .input{
+    width: 90% !important;
+  }
+  .button{
+    width: 6rem;
+  }
+}
