@@ -4,7 +4,7 @@ import { Image } from '@chakra-ui/image';
 import { BiSearch } from 'react-icons/bi';
 import { SiDogecoin } from 'react-icons/si';
 import { ChakraProvider,Input,InputGroup,InputLeftElement,HStack } from '@chakra-ui/react';
-import HomeStyle from '../styles/home.module.css';
+import HomeStyle from '../styles/Home.module.css';
 import Tabbar from '../dogecompaile/Tabbar';
 import Footer from '../dogecompaile/Footer';
 import Marquee from "react-fast-marquee";
