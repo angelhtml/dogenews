@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "static": "next build && next export && touch ./out/.nojekyll && echo 'www.mywebsite.com' > ./out/CNAME",
+    "build": "next build && next export && touch ./out/.nojekyll && echo 'www.mywebsite.com' > ./out/CNAME",
     "export":"next export",
     "start": "next start",
     "lint": "next lint",
