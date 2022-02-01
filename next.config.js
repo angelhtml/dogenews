@@ -1,5 +1,5 @@
 module.exports = {
-  reactStrictMode: true,
+  //reactStrictMode: true,
   basePath: '/dogenews',
-  assetPrefix: '/dogenews'
+  assetPrefix: '/dogenews/'
 }
