@@ -149,7 +149,7 @@ function extra (index){
        <p className={HomeStyle.title}>{news[numindex].title}</p>
        <div className={HomeStyle.infobox}>
        <div className={HomeStyle.infobox1}><Image src='retro-bg.jpg'/><div style={{marginTop:'1rem'}}><span style={{padding:"1rem",textShadow:"0 1px 1px #f0f"}}>published at:</span><span style={{textShadow:"0 1px 1px black"}}>{news[numindex].published}</span></div><div><span style={{padding:"1rem",textShadow:"0 1px 1px #f0f"}}>Author:</span><span style={{textShadow:"0 1px 1px black"}}></span></div></div>
-       <div className={HomeStyle.infobox2}><p style={{padding:"1rem",textShadow:"0 1px 1px #f0f"}}>description:</p><p  style={{padding:"1rem",textShadow:"0 1px 1px black"}}>{news[numindex].title.substring(0, 160)}...</p><center><a href={news[numindex].link} className={homeStyle.seemorelink}>See more</a></center></div>
+       <div className={HomeStyle.infobox2}><p style={{padding:"1rem",textShadow:"0 1px 1px #f0f"}}>description:</p><p  style={{padding:"1rem",textShadow:"0 1px 1px black"}}>{news[numindex].title.substring(0, 160)}...</p><center><a href={news[numindex].link} className={HomeStyle.seemorelink}>See more</a></center></div>
        </div>
         </div>
       </div>
