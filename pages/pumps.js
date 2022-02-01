@@ -1,4 +1,4 @@
-import pumpsStyle from '../styles/pumps.module.css'
+//import pumpsStyle from '../styles/pumps.module.css'
 import { Progress } from '@chakra-ui/react'
 import axios from "axios"; 
 //import db from 'diskdb';
