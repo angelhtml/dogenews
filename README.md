@@ -1,1 +1,1 @@
-"# dogenews" 
+" dogenews" 
